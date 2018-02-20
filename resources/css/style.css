@@ -229,3 +229,471 @@ footer {
 .copyright {
   margin-left:3rem;
 }
+
+@media only screen and (max-width:960px) {
+  html {
+    font-size:18px;
+    font-family: "Helvetica", "Time New Romain", serif;
+  }
+
+
+      /* Header Section */
+  header {
+    background-color:black;
+    color:white;
+    position:static;
+    top:0rem;
+  }
+
+  .header {
+    background-color:black;
+    justify-content:flex-start;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-bottom:0rem;
+    margin-left:4rem;
+  }
+
+
+  .logoimage {
+    display:inline-block;
+    height:1.5rem;
+    margin-left:0.5rem;
+    margin-right:1rem;
+  }
+
+  .companyname {
+    display:inline-block;
+    color:white;
+    font-size:1rem;
+    margin-top:0.66rem;
+    margin-bottom:0.66rem;
+  }
+
+    /* Main Section */
+
+  main {
+    position:relative;
+    top:0rem;
+  }
+
+  .background {
+    display:flex;
+    flex-direction:row;
+    height:25rem;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+    background-size:cover;
+    margin-top:0rem;
+    align-items:center;
+  }
+
+  .mainproduct {
+    background-color:black;
+    color:white;
+    margin-top:9rem;
+    margin-bottom:5rem;
+    width:20rem;
+    height:15rem;
+    margin-left:4rem;
+  }
+
+  .newarrival {
+    padding-left:3rem;
+    padding-top:2rem;
+    font-weight:bold;
+    line-height:0.25rem;
+  }
+
+  .sportsbikes {
+    padding-left:3rem;
+    font-size:2rem;
+    marign-top:0rem;
+    font-weight:bold;
+    font-family:Helvetica;
+  }
+
+
+  .navigation {
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color:firebrick;
+    height:2rem;
+    color:white;
+  }
+
+  .products {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin:0 auto;
+  }
+
+  .ExplodingPensection {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    width:30%;
+    border:4px solid black;
+    margin-top:3rem;
+  }
+
+  .Penimage {
+    width:30%;
+    height:9rem;
+    margin: 2rem auto;
+  }
+
+  .explodingpen {
+    background-color:black;
+    color:white;
+    text-align:center;
+    width:100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+
+  .CellularWatchsection {
+    display: flex;
+    flex-direction:column;
+    width:30%;
+    border:4px solid black;
+    margin-top:3rem;
+  }
+
+  .cellularwatch {
+    background-color:black;
+    color:white;
+    text-align:center;
+    width:100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .cellularwatchimage {
+    width:30%;
+    height:9rem;
+    margin: 2rem auto;
+  }
+
+  .ThermalGlassessection {
+    display: flex;
+    flex-direction:column;
+    width:30%;
+    border:4px solid black;
+    margin-top:3rem;
+  }
+
+  .thermalglasses {
+    background-color:black;
+    color:white;
+    text-align:center;
+    width:100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .cellularwatchimage {
+    width:30%;
+    height:9rem;
+    margin: 2rem auto;
+  }
+
+  .glassesimage {
+    width:30%;
+    height:9rem;
+    margin: 2rem auto;
+  }
+
+  .operations {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-left:1rem;
+  }
+
+  .locationsection {
+    width:35%;
+    margin-top:3rem;
+  }
+
+  .location {
+    text-align:left;
+    background-color:black;
+    color:white;
+    padding-left:2rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+  }
+
+
+
+  .hourssection {
+    width:35%;
+    margin-top:3rem;
+    margin-right:1rem;
+  }
+
+  .hours {
+    text-align:left;
+    background-color:black;
+    color:white;
+    padding-left:2rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+  }
+
+      /* Footer */
+
+  footer {
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    height:5rem;
+    background-color:black;
+    color:white;
+    text-align:left;
+    margin-top:4rem;
+  }
+
+  .copyright {
+    margin-left:3rem;
+  }
+}
+
+@media only screen and (max-width:768px){
+  .ExplodingPensection {
+    width:47%;
+  }
+
+ .CellularWatchsection {
+   width:47%;
+ }
+
+ .ThermalGlassessection {
+   display:none;
+ }
+
+ .header {
+   background-color:black;
+   display:flex;
+   justify-content:flex-start;
+   flex-direction:row;
+   align-items:center;
+   margin-bottom:0rem;
+   margin-left:0rem;
+   padding-left:0rem;
+ }
+
+ .logoimage {
+   display:inline-block;
+   height:1.5rem;
+   margin-left:0rem;
+   padding-left:0rem;
+   margin-right:1rem;
+ }
+
+ .mainproduct {
+   background-color:black;
+   color:white;
+   margin-top:9rem;
+   margin-bottom:5rem;
+   width:20rem;
+   height:15rem;
+   margin:0rem;
+   padding:0rem;
+ }
+
+ .copyright {
+   margin-left:0rem;
+ }
+
+}
+
+@media only screen and (max-width:480px) {
+  html {
+    font-size:18px;
+    font-family: "Helvetica", "Time New Romain", serif;
+  }
+
+
+      /* Header Section */
+  header {
+    background-color:black;
+    color:white;
+    position:static;
+    top:0rem;
+    width:100%;
+  }
+
+  .header {
+    background-color:black;
+    justify-content:flex-start;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-bottom:0rem;
+    margin-left:0rem;
+  }
+
+
+  .logoimage {
+    display:inline-block;
+    height:1.5rem;
+    margin-left:0rem;
+    margin-right:1rem;
+  }
+
+  .companyname {
+    display:inline-block;
+    color:white;
+    font-size:1rem;
+    margin-top:0.66rem;
+    margin-bottom:0.66rem;
+  }
+
+    /* Main Section */
+
+  main {
+    position:relative;
+    top:0rem;
+  }
+
+  .background {
+    display:flex;
+    height:15rem;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+    background-size:cover;
+    margin-top:0rem;
+  }
+
+  .mainproduct {
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    justify-content:flex-end;
+    background-color:black;
+    color:white;
+    margin-top:10rem;
+    height:6rem;
+    width:100%;
+    margin-left:0;
+    margin-right:auto;
+    padding-right:auto;
+    padding-bottom:0;
+    margin-bottom:1.5rem;
+  }
+
+  .newarrival {
+    padding-top:2rem;
+    margin-top:1rem;
+    padding-bottom:0rem;
+    margin-bottom:0rem;
+    font-weight:bold;
+    line-height:0rem;
+    font-size:0.77rem;
+    font-family:Helvetica;
+  }
+
+  .sportsbikes {
+    font-size:1rem;
+    marign-top:0rem;
+    font-weight:bold;
+    font-family:Helvetica;
+  }
+
+
+  .navigation {
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color:firebrick;
+    height:2rem;
+    color:white;
+  }
+
+  .products {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin:0 auto;
+  }
+
+  .ExplodingPensection {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    width:90%;
+    border:4px solid black;
+    margin-top:3rem;
+  }
+
+
+
+
+  .CellularWatchsection {
+    display:none;
+  }
+
+  .ThermalGlassessection {
+    display: none;
+  }
+
+
+  .operations {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    width:90%;
+  }
+
+  .locationsection {
+    width:100%;
+    margin-top:3rem;
+  }
+
+.storelocation {
+  width:90%;
+}
+
+  .hourssection {
+    width:100%;
+    margin-top:0.5rem;
+    padding-left:0.6rem;
+  }
+
+  .hours {
+    text-align:left;
+    background-color:black;
+    color:white;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    width:90%;
+  }
+
+.storehours {
+   width:90%;
+}
+      /* Footer */
+
+  footer {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:5rem;
+    background-color:black;
+    color:white;
+    text-align:left;
+    margin-top:4rem;
+  }
+
+  .copyright {
+    margin-left:3rem;
+  }
+
+}
