@@ -83,11 +83,18 @@ main {
 
 .navigation {
   display:flex;
+  list-style-type:none;
   align-items:center;
   justify-content: space-around;
   background-color:firebrick;
   height:2rem;
   color:white;
+  margin:0rem;
+  padding:0rem;
+}
+
+.mobilenavigation {
+    display:none;
 }
 
 .products {
@@ -316,11 +323,18 @@ footer {
 
   .navigation {
     display:flex;
+    list-style-type:none;
     align-items:center;
     justify-content: space-around;
     background-color:firebrick;
     height:2rem;
     color:white;
+    margin:0rem;
+    padding:0rem;
+  }
+
+  .mobilenavigation {
+    display:none;
   }
 
   .products {
@@ -464,7 +478,7 @@ footer {
   }
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1024px){
   .ExplodingPensection {
     width:47%;
   }
@@ -507,13 +521,29 @@ footer {
    padding:0rem;
  }
 
+ .mobilenavigation {
+   display:flex;
+   list-style-type:none;
+   align-items:center;
+   justify-content: space-around;
+   background-color:firebrick;
+   height:2rem;
+   color:white;
+   margin-top:0;
+   padding-top:0;
+ }
+
+ .navigation {
+   display:none;
+ }
+
  .copyright {
    margin-left:0rem;
  }
 
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:470px) {
   html {
     font-size:18px;
     font-family: "Helvetica", "Time New Romain", serif;
@@ -584,7 +614,7 @@ footer {
     margin-right:auto;
     padding-right:auto;
     padding-bottom:0;
-    margin-bottom:1.5rem;
+    margin-bottom:1rem;
   }
 
   .newarrival {
@@ -606,13 +636,20 @@ footer {
   }
 
 
-  .navigation {
+  .mobilenavigation {
     display:flex;
+    list-style-type:none;
     align-items:center;
     justify-content: space-around;
     background-color:firebrick;
     height:2rem;
     color:white;
+    margin-top:0;
+    padding-top:0;
+  }
+
+  .navigation {
+    display:none;
   }
 
   .products {
@@ -653,7 +690,7 @@ footer {
   }
 
   .locationsection {
-    width:100%;
+    width:90%;
     margin-top:3rem;
   }
 
@@ -662,9 +699,14 @@ footer {
 }
 
   .hourssection {
-    width:100%;
-    margin-top:0.5rem;
-    padding-left:0.6rem;
+    width:90%;
+    margin:0 auto;
+  /*
+    margin-top:0.5rem ; */
+    padding:0;
+
+  /*
+    padding-left:0.6rem; */
   }
 
   .hours {
@@ -692,8 +734,9 @@ footer {
     margin-top:4rem;
   }
 
+/*
   .copyright {
     margin-left:3rem;
   }
-
+*/
 }
